@@ -1,1 +1,0 @@
-OpenWrt MT7620
