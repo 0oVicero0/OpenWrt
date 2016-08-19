@@ -4,8 +4,8 @@ Install
 ```
 opkg update
 opkg install ip ipset openssl-util dnsmasq-full
-opkg install iptables-mod-nat-extra
-opkg install luci-i18n-qos-zh-cn luci-i18n-upnp-zh-cn luci-i18n-minidlna-zh-cn
+opkg install kmod-fs-exfat iptables-mod-nat-extra luci-i18n-qos-zh-cn
+opkg install luci-i18n-samba-zh-cn luci-i18n-upnp-zh-cn luci-i18n-minidlna-zh-cn
 
 ```
 -------------------------------------------------------------------------------
