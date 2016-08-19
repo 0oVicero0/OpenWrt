@@ -3,11 +3,10 @@
 Install
 ```
 opkg update
-opkg install ipset
-opkg install openssl-util
-opkg install luci-i18n-qos-zh-cn
-opkg install luci-i18n-upnp-zh-cn
-opkg install luci-i18n-minidlna-zh-cn
+opkg install ip ipset openssl-util dnsmasq-full
+opkg install iptables-mod-nat-extra
+opkg install luci-i18n-qos-zh-cn luci-i18n-upnp-zh-cn luci-i18n-minidlna-zh-cn
+
 ```
 -------------------------------------------------------------------------------
 adbyby
