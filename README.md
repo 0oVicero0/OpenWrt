@@ -11,6 +11,7 @@ firstboot -y && reboot
 Install
 ```
 opkg update
+opkg install --force-overwrite luci-i18n-base-zh-cn
 opkg install --force-overwrite ip ipset openssl-util libgmp libnettle
 opkg install --force-overwrite iptables-mod-nat-extra luci-i18n-qos-zh-cn
 opkg install --force-overwrite luci-i18n-samba-zh-cn luci-i18n-upnp-zh-cn luci-i18n-minidlna-zh-cn
