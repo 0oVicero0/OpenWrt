@@ -20,11 +20,16 @@ opkg install --force-overwrite luci-i18n-samba-zh-cn luci-i18n-upnp-zh-cn luci-i
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
-Multiwan
+MWAN3
 ```
-opkg install http://downloads.openwrt.org/barrier_breaker/14.07/ramips/mt7620a/packages/oldpackages/multiwan_1.0.22-2_ramips_24kec.ipk
-opkg install luci-i18n-multiwan-zh-cn
-   
+opkg install kmod-macvlan luci-app-mwan3 dnsmasq-full
+
+ip link add link eth0.2 name vth0 type macvlan
+ifconfig vth0 up
+
+Network->Load Balancing->Configuration->Interfaces (new, Input your Interfaces )
+Network->Load Balancing->Configuration->Members (new, Metric = 1,Weight = 1 )
+Network->Load Balancing->Configuration->Policy (new, Last resort = default )
 ```
 -------------------------------------------------------------------------------
 
