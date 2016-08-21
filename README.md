@@ -22,9 +22,10 @@ opkg install --force-overwrite luci-i18n-samba-zh-cn luci-i18n-upnp-zh-cn luci-i
 -------------------------------------------------------------------------------
 USB
 ```
-opkg install kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-usb-storage
-opkg install kmod-fs-exfat kmod-fs-vfat ntfs-3g
-opkg install mount-utils fdisk usbutils
+opkg install kmod-usb-core kmod-usb-ohci kmod-usb-uhci kmod-usb2 kmod-usb-storage 
+opkg install kmod-fs-exfat kmod-fs-vfat kmod-fs-ext4 kmod-fs-ntfs ntfs-3g
+opkg install kmod-ledtrig-usbdev mount-utils fdisk usbutils
+opkg install kmod-nls-cp437 kmod-nls-iso8859-1 kmod-nls-utf8
      
 ```
 vi /etc/hotplug.d/block/10-mount
