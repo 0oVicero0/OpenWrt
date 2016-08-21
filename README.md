@@ -23,6 +23,7 @@ opkg install --force-overwrite luci-i18n-samba-zh-cn
 -------------------------------------------------------------------------------
 USB
 ```
+opkg install luci-i18n-samba-zh-cn 
 opkg install kmod-usb-core kmod-usb-ohci kmod-usb-uhci kmod-usb2 kmod-usb-storage 
 opkg install kmod-usb-storage-extras block-mount kmod-ledtrig-usbdev mount-utils fdisk usbutils
 opkg install kmod-fs-exfat kmod-fs-vfat kmod-fs-ext4 kmod-fs-ntfs ntfs-3g
