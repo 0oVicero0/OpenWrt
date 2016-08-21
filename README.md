@@ -27,7 +27,7 @@ opkg install kmod-fs-exfat kmod-fs-vfat ntfs-3g
 opkg install mount-utils fdisk usbutils
      
 ```
-/etc/hotplug.d/block/10-mount
+vi /etc/hotplug.d/block/10-mount
 ```
 #!/bin/sh
 
