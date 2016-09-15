@@ -102,3 +102,18 @@ cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubuserc
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
+
+dnsmasq
+```
+cd /jffs
+```
+```
+mkdir -p dnsmasq
+cd ./dnsmasq
+
+
+```
+dnsmasq (tomaot)
+```
+conf-file=/jffs/dnsmasq/dnsmasq.conf
+```
