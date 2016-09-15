@@ -108,8 +108,7 @@ dnsmasq
 cd /jffs
 ```
 ```
-mkdir -p dnsmasq
-cd ./dnsmasq
+mkdir -p dnsmasq && cd ./dnsmasq
 wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0oVicero0/OpenWrt_MT7620/master/dnsmasq/dnsmasq.conf"
 wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/OpenWrt_MT7620/master/dnsmasq/dnsmasq.hosts"
 
@@ -117,4 +116,5 @@ wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/
 dnsmasq (tomaot)
 ```
 conf-file=/jffs/dnsmasq/dnsmasq.conf
+addn-hosts=/jffs/dnsmasq/dnsmasq.hosts
 ```
