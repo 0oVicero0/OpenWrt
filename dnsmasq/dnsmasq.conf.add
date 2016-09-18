@@ -1,2 +1,3 @@
 conf-file=/jffs/dnsmasq/dnsmasq.conf
 addn-hosts=/jffs/dnsmasq/dnsmasq.hosts
+ 
