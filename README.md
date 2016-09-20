@@ -1,4 +1,17 @@
-#OpenWrt MT7620
+#OpenWrt
+-------------------------------------------------------------------------------
+Download
+-------------------------------------------------------------------------------
+RT-N12HP
+```
+
+
+```
+MiWiFi
+```
+
+
+```
 -------------------------------------------------------------------------------
 Reset
 -------------------------------------------------------------------------------
@@ -96,7 +109,7 @@ Network->Load Balancing->Configuration->Policy (new, Last resort = default )
 -------------------------------------------------------------------------------
 adbyby
 ```
-cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubusercontent.com/0oVicero0/OpenWrt_MT7620/master/adbyby.tar.gz" && tar -xvf adbyby.tar.gz && cd adbyby && sh Install.sh
+cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/adbyby.tar.gz" && tar -xvf adbyby.tar.gz && cd adbyby && sh Install.sh
    
 ```
 -------------------------------------------------------------------------------
@@ -105,10 +118,12 @@ cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubuserc
 
 dnsmasq
 ```
-cd /jffs
+#cd /jffs
 ```
 ```
 mkdir -p dnsmasq && cd ./dnsmasq
-wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0oVicero0/OpenWrt_MT7620/master/dnsmasq/dnsmasq.conf"
-wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/OpenWrt_MT7620/master/dnsmasq/dnsmasq.hosts"
+wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/dnsmasq/dnsmasq.conf"
+wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/dnsmasq/dnsmasq.hosts"
+
+```
 
