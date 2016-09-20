@@ -3,12 +3,12 @@
 Download   
 -------------------------------------------------------------------------------
 RT-N12HP   
+```
 [GitHub.com](https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/RT-N12H/openwrt-15.05.trx)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/brcm47xx/mips74k/openwrt-15.05-brcm47xx-mips74k-asus-rt-n12hp-squashfs.trx) 
-
+```
 MiWiFi
+```
 [GitHub.com](https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/MiWiFi/openwrt-15.05.bin)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin)
-
-
 ```
 -------------------------------------------------------------------------------
 Reset   
