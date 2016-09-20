@@ -4,12 +4,16 @@ Download
 -------------------------------------------------------------------------------
 RT-N12HP@Tomato     
 
-[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/RT-N12H/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.trx)  [tomato.groov.pl](http://tomato.groov.pl/download/K26RT-N/build5x-132-EN/Asus%20RT-Nxx/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.zip) 
+[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/RT-N12H/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.trx)     [tomato.groov.pl](http://tomato.groov.pl/download/K26RT-N/build5x-132-EN/Asus%20RT-Nxx/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.zip) 
 
 MiWiFi@OpenWRT     
 
-[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/MiWiFi/openwrt-15.05.bin)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin)
+[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/MiWiFi/openwrt-15.05.bin)     [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin)
 
+-------------------------------------------------------------------------------
+     
+-------------------------------------------------------------------------------
+#Tomato  
 -------------------------------------------------------------------------------
 dnsmasq
 ```
@@ -21,15 +25,13 @@ wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0
 wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/Router/master/dnsmasq/dnsmasq.hosts"
 
 ```
--------------------------------------------------------------------------------
--------------------------------------------------------------------------------
-#Tomato     
 ```
 conf-file=/jffs/dnsmasq/dnsmasq.conf
-addn-hosts=/jffs/dnsmasq/dnsmasq.hosts
 
 ```
 -------------------------------------------------------------------------------
+     
+    
 -------------------------------------------------------------------------------
 #OpenWRT     
 -------------------------------------------------------------------------------
