@@ -1,15 +1,37 @@
-#OpenWrt
+#Router
 -------------------------------------------------------------------------------
 Download   
 -------------------------------------------------------------------------------
-RT-N12HP   
+RT-N12HP@Tomato     
 
-[GitHub.com](https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/RT-N12H/openwrt-15.05.trx)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/brcm47xx/mips74k/openwrt-15.05-brcm47xx-mips74k-asus-rt-n12hp-squashfs.trx) 
+[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/RT-N12H/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.trx)  [tomato.groov.pl](http://tomato.groov.pl/download/K26RT-N/build5x-132-EN/Asus%20RT-Nxx/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.zip) 
 
-MiWiFi
+MiWiFi@OpenWRT     
 
-[GitHub.com](https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/MiWiFi/openwrt-15.05.bin)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin)
+[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/MiWiFi/openwrt-15.05.bin)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7620/openwrt-15.05-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin)
 
+-------------------------------------------------------------------------------
+dnsmasq
+```
+cd /jffs
+```
+```
+mkdir -p dnsmasq && cd ./dnsmasq
+wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0oVicero0/Router/master/dnsmasq/dnsmasq.conf"
+wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/Router/master/dnsmasq/dnsmasq.hosts"
+
+```
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+#Tomato     
+```
+conf-file=/jffs/dnsmasq/dnsmasq.conf
+addn-hosts=/jffs/dnsmasq/dnsmasq.hosts
+
+```
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+#OpenWRT     
 -------------------------------------------------------------------------------
 Reset   
 -------------------------------------------------------------------------------
@@ -107,26 +129,9 @@ Network->Load Balancing->Configuration->Policy (new, Last resort = default )
 -------------------------------------------------------------------------------
 adbyby
 ```
-cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/adbyby.tar.gz" && tar -xvf adbyby.tar.gz && cd adbyby && sh Install.sh
+cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubusercontent.com/0oVicero0/Router/master/adbyby.tar.gz" && tar -xvf adbyby.tar.gz && cd adbyby && sh Install.sh
    
 ```
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
-
-dnsmasq
-```
-cd /jffs
-```
-```
-mkdir -p dnsmasq && cd ./dnsmasq
-wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/dnsmasq/dnsmasq.conf"
-wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/dnsmasq/dnsmasq.hosts"
-
-```
-dnsmasq (tomaot)
-```
-conf-file=/jffs/dnsmasq/dnsmasq.conf
-addn-hosts=/jffs/dnsmasq/dnsmasq.hosts
-
-```
