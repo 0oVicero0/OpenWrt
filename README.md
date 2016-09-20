@@ -116,7 +116,7 @@ cd /tmp && wget --no-check-certificate -O adbyby.tar.gz "https://raw.githubuserc
 
 dnsmasq
 ```
-#cd /jffs
+cd /jffs
 ```
 ```
 mkdir -p dnsmasq && cd ./dnsmasq
@@ -124,4 +124,9 @@ wget --no-check-certificate -O dnsmasq.conf "https://raw.githubusercontent.com/0
 wget --no-check-certificate -O dnsmasq.hosts "https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/dnsmasq/dnsmasq.hosts"
 
 ```
+dnsmasq (tomaot)
+```
+conf-file=/jffs/dnsmasq/dnsmasq.conf
+addn-hosts=/jffs/dnsmasq/dnsmasq.hosts
 
+```
