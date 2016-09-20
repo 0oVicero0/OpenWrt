@@ -1,9 +1,9 @@
 #OpenWrt
 -------------------------------------------------------------------------------
-Download
+Download   
 -------------------------------------------------------------------------------
-RT-N12HP
-GitHub.com(https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/RT-N12H/openwrt-15.05.trx) OpenWrt.org 
+RT-N12HP   
+[GitHub.com](https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/RT-N12H/openwrt-15.05.trx)  [OpenWrt.org](https://downloads.openwrt.org/chaos_calmer/15.05/brcm47xx/mips74k/openwrt-15.05-brcm47xx-mips74k-asus-rt-n12hp-squashfs.trx) 
 
 MiWiFi
 ```
@@ -11,7 +11,7 @@ MiWiFi
 
 ```
 -------------------------------------------------------------------------------
-Reset
+Reset   
 -------------------------------------------------------------------------------
 ```
 firstboot -y && reboot
