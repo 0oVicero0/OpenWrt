@@ -3,10 +3,8 @@
 Download
 -------------------------------------------------------------------------------
 RT-N12HP
-```
+GitHub.com(https://raw.githubusercontent.com/0oVicero0/OpenWrt/master/ROM/RT-N12H/openwrt-15.05.trx) OpenWrt.org 
 
-
-```
 MiWiFi
 ```
 
