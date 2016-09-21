@@ -4,8 +4,8 @@ Download
 -------------------------------------------------------------------------------
 RT-N12HP@Tomato     
 
-*[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/RT-N12H/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.trx)    
-*[tomato.groov.pl](http://tomato.groov.pl/download/K26RT-N/build5x-132-EN/Asus%20RT-Nxx/tomato-K26-1.28.RT-N5x-MIPSR2-132-Mini.zip)   
+*[GitHub.com](https://raw.githubusercontent.com/0oVicero0/Router/master/ROM/RT-N12H/tomato-K26-1.28.RT-N5x-MIPSR2-132-Max.trx)    
+*[tomato.groov.pl](http://tomato.groov.pl/download/K26RT-N/build5x-132-EN/Asus%20RT-Nxx/tomato-K26-1.28.RT-N5x-MIPSR2-132-Max.zip)   
 
 MiWiFi@OpenWRT     
 
